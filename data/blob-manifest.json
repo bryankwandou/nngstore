@@ -1,0 +1,650 @@
+{
+  "answer-key-1000-biology": {
+    "sha": "0e152aec983c2f41916657c9465bae26d06629ef4602d9aa6662917cdba0de47",
+    "size": 472305
+  },
+  "answer-key-1000-buddhist": {
+    "sha": "95db724452d4afe0df91470f0627e28316692c2b6a479ae46d5d47a07a1c7c50",
+    "size": 479374
+  },
+  "answer-key-1000-catholic": {
+    "sha": "3ad757c393d391f582033ca99fe8dc202544e1dddba8005cca97bd9a72c9e353",
+    "size": 522696
+  },
+  "answer-key-1000-chemistry": {
+    "sha": "9ed42fc72c2248911938ae41edc2c3727a2b7591be25057296fb2ac093e43885",
+    "size": 476687
+  },
+  "answer-key-1000-confucian": {
+    "sha": "58035c6cd80a01af12647afbdc0554f1f6879e9bd2f802a1bd1c3da9f996a1ad",
+    "size": 499696
+  },
+  "answer-key-1000-english": {
+    "sha": "0d73da2163322489e4c00c3cfe1b06af13ea02b36c6f28d99914cd39506b8076",
+    "size": 413944
+  },
+  "answer-key-1000-german": {
+    "sha": "e454e47f6cb51a6abc011e95f091bfbf4db072cca2f25bb0fb435153ebd62830",
+    "size": 385426
+  },
+  "answer-key-1000-hindu": {
+    "sha": "ef56502cb48a6ef515de30360a9ccedf1820f7a1bdb8e350a35699d115a40ab9",
+    "size": 468385
+  },
+  "answer-key-1000-islam-theory": {
+    "sha": "a060bf8287b6608b2251ac6beaec13312072286144fba977d571b6b353427d1f",
+    "size": 485085
+  },
+  "answer-key-1000-islam-writing": {
+    "sha": "6cd00d5b0342a6e1ddd62b288f95ec330f14cd24137b86e22da7f631956a092f",
+    "size": 534442
+  },
+  "answer-key-1000-japanese": {
+    "sha": "7d47d86c489de4ea99d880576a4995434bdf54a25fa1bd8e35f17a90ebe522d3",
+    "size": 400016
+  },
+  "answer-key-1000-korean": {
+    "sha": "0edd31051fe5e338dccbb416459dde63290394d5de02afb4425064805ca0b7be",
+    "size": 523915
+  },
+  "answer-key-1000-mandarin": {
+    "sha": "f6ed6c6ffbedc637ed18b8805e89fef8c5ebb3d59062cd6e5d60486282863525",
+    "size": 563034
+  },
+  "answer-key-1000-pkn": {
+    "sha": "7b0fad9aea83cf9f9433bfbafbc082b54d731bcc2fe7328eeeb2c821719e75d9",
+    "size": 495769
+  },
+  "answer-key-1000-ppkn": {
+    "sha": "a8598decab53425c60ae40deb2eb7d330fee5b8f4de5cabefb06e43a7904d426",
+    "size": 475869
+  },
+  "answer-key-1000-protestant": {
+    "sha": "cb16636d888912e49d2114be8103dcbfd329d17b196aed9c9c217405d2c3a9e6",
+    "size": 509373
+  },
+  "assessment-100-biology": {
+    "sha": "c7ae8d5f5e41ba5e5f949eaeb2aed2d86d8bd3fd592a5f37bb3bd8f3dc5ee412",
+    "size": 282668
+  },
+  "assessment-100-buddhist": {
+    "sha": "f0ba90dc80e60046fb0f4a72494670dc77ae53e25df1194a6bd53284ba3c63c9",
+    "size": 341111
+  },
+  "assessment-100-catholic": {
+    "sha": "d6ec5d95ecaee65e2bb5db03e874337b700526549e6f58d6d9db5fcdf36ae7e1",
+    "size": 290746
+  },
+  "assessment-100-chemistry": {
+    "sha": "cd6a829007251d6fa291cf800e68dbc27d88c355ab8572e16c3264a719f7e553",
+    "size": 288586
+  },
+  "assessment-100-confucian": {
+    "sha": "59d528dca61ef3096ead02af66ba1ea49e4d4f26239c3838ad5979ac75416e7c",
+    "size": 335127
+  },
+  "assessment-100-english": {
+    "sha": "b03fb14ddae7f5f6d16095deee1a57acdd429507655b1dc2f68d778a52a06af0",
+    "size": 338423
+  },
+  "assessment-100-german": {
+    "sha": "c15826e31faf57726ce88d459bbadfa85d578d0c94242dae577b6d12c6b34437",
+    "size": 328338
+  },
+  "assessment-100-hindu": {
+    "sha": "741c6e3adc8dfbcd50c696a2b34da7d946959c9007a7df83cd7afce07f39a9b6",
+    "size": 327823
+  },
+  "assessment-100-islam-theory": {
+    "sha": "a9c4a69dc9d054d565cd248df68caac1744b5b675ccb4825f650a3da62367f95",
+    "size": 349932
+  },
+  "assessment-100-islam-writing": {
+    "sha": "1422c92d40a001c134924a29cd0e4c4b991e2914b8cbfc07786fc6505dc04e25",
+    "size": 357394
+  },
+  "assessment-100-japanese": {
+    "sha": "7e3be5a945ef5b7f1e842ab2ec694e01de1dfd8a039515ed44058c2bac7eeaa4",
+    "size": 360603
+  },
+  "assessment-100-korean": {
+    "sha": "16682e54b6ce9e35b0a297c8cdfee03b65132b2c803993fd7a22cd33753703f3",
+    "size": 396143
+  },
+  "assessment-100-mandarin": {
+    "sha": "cf82f65c05ed4f0a39cb32eb731a2a2032cd9266fe66b262acaa98cfc072b942",
+    "size": 494759
+  },
+  "assessment-100-math": {
+    "sha": "4375583e527d5eb65c8601baa52db381f13dea6753aea0ed5b45f85e6f621d54",
+    "size": 270533
+  },
+  "assessment-100-pancasila": {
+    "sha": "04242c257241216fce641f0b13e70415a2b85837bbf9b36fb4d9d052bf6f1705",
+    "size": 281908
+  },
+  "assessment-100-pkn": {
+    "sha": "2415c21762ceb290736d0348f416af22017fa10dc68f2a9ddb58b70cdeebf49a",
+    "size": 296732
+  },
+  "assessment-100-ppkn": {
+    "sha": "0bb7a8769524c2200d3ab90c8a2a3fd0911aad2b1fb2de44818dc2c0a45da1b3",
+    "size": 286779
+  },
+  "assessment-100-protestant": {
+    "sha": "3b006437696daedf9d9c4caca77707f36fe5d84d7ee9a6349590f7ae6a08c5bc",
+    "size": 294880
+  },
+  "exam-script-100-biology": {
+    "sha": "df9ff3d816c4722aafe5452d54e06aa3df5c2ada4ea4f1798d2760c56df3b1ea",
+    "size": 247402
+  },
+  "exam-script-100-buddhist": {
+    "sha": "498fb671f0dc0be0a26498211bc12eab397d487bcdd753204b13a150af842497",
+    "size": 305993
+  },
+  "exam-script-100-catholic": {
+    "sha": "5c696c349df81f01e3f3772e83d2f98ca8e6baa4fa0ec5fd7109faaabe7af4ed",
+    "size": 255540
+  },
+  "exam-script-100-chemistry": {
+    "sha": "8994bb5be3813b4fb43732792362e37dd6a44baa2f00085afe60caca360c716a",
+    "size": 253443
+  },
+  "exam-script-100-confucian": {
+    "sha": "f276a59d7d743ed31549674f7561880bcfca65386615890c74205ce46c5c9a29",
+    "size": 300419
+  },
+  "exam-script-100-english": {
+    "sha": "2c4d1673ef1e72371e46bd1d38655745e29dd1da157ed99944d9b4e8551c24df",
+    "size": 303257
+  },
+  "exam-script-100-german": {
+    "sha": "8769d101dc114f1c24fef1a944cadc673b10c37b7066dee0485e1a39c61d0f1f",
+    "size": 294072
+  },
+  "exam-script-100-hindu": {
+    "sha": "f578b85a1c58cba8f56238fa578bcfaca75cb65f83c3ee9d53011bf6cf283737",
+    "size": 292507
+  },
+  "exam-script-100-islam-theory": {
+    "sha": "11202b2047bdbb5368b8deadfbe8da89ca745d27b9959ad8833dd168ed5e168d",
+    "size": 315043
+  },
+  "exam-script-100-islam-writing": {
+    "sha": "93d5ba95331a2736d60dd90f2e3cc98e4c679ba212dd9e4024989ba2664fafac",
+    "size": 322111
+  },
+  "exam-script-100-japanese": {
+    "sha": "d8ba72d40229c1c37175b9e6f2f4d0d7c70fbcdf424bd07aae13a3c9dd8ca0ea",
+    "size": 326802
+  },
+  "exam-script-100-korean": {
+    "sha": "af05b6a96bb8c116874817a99b22565519852bfc1b6fbac1a60d98c71379e160",
+    "size": 361147
+  },
+  "exam-script-100-mandarin": {
+    "sha": "775dd2a53e23a81e5a052413f276f38db1da95abe7311dc501eac999a0cfa7ed",
+    "size": 460473
+  },
+  "exam-script-100-math": {
+    "sha": "bdeac9ea2df4ff85428ddece31dfcbf65f82d108d3bc82744f38bfa923f81362",
+    "size": 235755
+  },
+  "exam-script-100-pancasila": {
+    "sha": "36171fbb1f02b278782519101c21f068ae754612959cea8ed31d02b84bfaa4b3",
+    "size": 246672
+  },
+  "exam-script-100-pkn": {
+    "sha": "23cb4d20b6e710317d8ff5ec011a1c5b8202492b3a1b8b8ca6c318779bd6c464",
+    "size": 259983
+  },
+  "exam-script-100-ppkn": {
+    "sha": "e2bcf013f99e1d92f489270141e5950dfb32a88dce98f05ce6688274b81c8364",
+    "size": 251501
+  },
+  "exam-script-100-protestant": {
+    "sha": "0934a12224987fcaa8b1f5c158f8d9b8ac1a748ddb7b338c90a680354dc17d30",
+    "size": 259829
+  },
+  "hots-key-100-buddhist": {
+    "sha": "7ab15d25a656cac9e47246fb498e062effb4d2b8069646e94e25fb270ab79091",
+    "size": 536415
+  },
+  "hots-key-100-confucian": {
+    "sha": "647d43ca50a5c3274f0b5815dc0cc55d308aded15337f448bbc3d047fbe70f95",
+    "size": 524056
+  },
+  "hots-key-100-english": {
+    "sha": "0c483f17b543a3a116161cfce884550bb8ba51f291293b5f14fa3f006edef1a7",
+    "size": 536883
+  },
+  "hots-key-100-german": {
+    "sha": "a67734c1cdea77119e69a206fd10a0b199a91de82d4124d00ae82a11bd4726ba",
+    "size": 514237
+  },
+  "hots-key-100-hindu": {
+    "sha": "975f49e0168e227e4df98562c27af47b50844be43ba7259b4f3a89a5ccb4e979",
+    "size": 518179
+  },
+  "hots-key-100-islam-theory": {
+    "sha": "4c4bbd89b97a86f176ad50427f466964f443c3839433e66da8e4d3e6234c689d",
+    "size": 566235
+  },
+  "hots-key-100-islam-writing": {
+    "sha": "9e3bbc9a677061b0493438be7a556ba6af48718d4778e0cbaf01812bf035a94a",
+    "size": 622821
+  },
+  "hots-key-100-japanese": {
+    "sha": "83e6c51641310624a05169baf99d4e2a1c523dded22a3bcd30b9636fe7efcc10",
+    "size": 582003
+  },
+  "hots-key-100-korean": {
+    "sha": "646e90b36be639484c83a043c66dad0267c2a3f3228b60d40bc81fe8d153f2c9",
+    "size": 618027
+  },
+  "hots-key-100-mandarin": {
+    "sha": "585f6e3d27971526bac85c4aa77e3a5817711b9e619ba87bd02827d2f0ba56c9",
+    "size": 703597
+  },
+  "hots-pack-100-buddhist": {
+    "sha": "bf9ef82ea84d4c9301da7251a0eec248fd4ffc1e2352bad555d0e192683539dd",
+    "size": 705417
+  },
+  "hots-pack-100-confucian": {
+    "sha": "ab73fb8dafae3f0596ce80996e6818df4c1d60fab9c9068db4732e10e8640afa",
+    "size": 701125
+  },
+  "hots-pack-100-english": {
+    "sha": "809aeae40ab84119256780ea064d34556dff82f983450d22eb99a2d55c5d90a3",
+    "size": 726602
+  },
+  "hots-pack-100-german": {
+    "sha": "680f9c6d3d36650cbff8bb1d9db7f427cfb22a90fc3d7b8489246e32a9ed194a",
+    "size": 654736
+  },
+  "hots-pack-100-hindu": {
+    "sha": "73dd6d2fb1d9bf086036193288b6cf401a326419f2ab63eb999dd2316caedd03",
+    "size": 672137
+  },
+  "hots-pack-100-islam-theory": {
+    "sha": "e5f64f0512ae090feea3f4c25f32301d444d0dbab3a4702e384f5f1a9286e1a6",
+    "size": 719189
+  },
+  "hots-pack-100-islam-writing": {
+    "sha": "fa43b8341942dd9b0fe3123e680b4b304775a36482b0464d8a58f09a1c61dd3d",
+    "size": 786703
+  },
+  "hots-pack-100-japanese": {
+    "sha": "0cec91689d98109625daf83bbcd1448630e4dd95cf1e1ee225f7735a1fcee362",
+    "size": 735402
+  },
+  "hots-pack-100-korean": {
+    "sha": "d2bce7ffe6dc74210c4317e7f19540ff92882471bf43ae3b9af538e8ed26c674",
+    "size": 790186
+  },
+  "hots-pack-100-mandarin": {
+    "sha": "b42b3f91c7a7fec30fddb958d4608397d38e7aa159fe6b444d85eb8572c000d0",
+    "size": 861532
+  },
+  "hots-practice-100-buddhist": {
+    "sha": "c9e4acd9492ba83366c69d7dc05aaf55582c11893ee79126f69995544c49ce22",
+    "size": 502853
+  },
+  "hots-practice-100-confucian": {
+    "sha": "6aa2535443929b7a59f7b30fa7b5b227361a53c85c66490f02fb9d518a34c0a8",
+    "size": 480492
+  },
+  "hots-practice-100-english": {
+    "sha": "f7428c80ea9c92d49f6b068d339c95e73d33a16bbe3337d63db6189944876054",
+    "size": 504848
+  },
+  "hots-practice-100-german": {
+    "sha": "685764c00c0fc9c4a2a8c84810e9598ea38e6c54c8a63140cc5b317e60588c6f",
+    "size": 473297
+  },
+  "hots-practice-100-hindu": {
+    "sha": "6e2a8b0c7ac56a6a23eb6b25f2034151c37b2aaead5e4ec0b2e1e335c0fc63f3",
+    "size": 475930
+  },
+  "hots-practice-100-islam-theory": {
+    "sha": "dabbaffa6696a77c389a5ef7686a78d50baf3215c6d7211f3d9153d783712b65",
+    "size": 488406
+  },
+  "hots-practice-100-islam-writing": {
+    "sha": "a82c8cda059311d4a4ce826ae765ff85624d02b84c8dad07e360882536fafa4c",
+    "size": 538361
+  },
+  "hots-practice-100-japanese": {
+    "sha": "0bf71ec42b4cfa5fdbdcd572c3bd2cd6fa9cd1e97867797fc9a744af90f90b18",
+    "size": 516532
+  },
+  "hots-practice-100-korean": {
+    "sha": "cb1d1011929f04fa6b2fa4b63b62d3fe55edcda490123e9a045b576124592aff",
+    "size": 521247
+  },
+  "hots-practice-100-mandarin": {
+    "sha": "acbcf1d2d508403d3d3835f3404aa6fcf76eeee72fb9333d5c41acb838230808",
+    "size": 613359
+  },
+  "key-exam-100-biology": {
+    "sha": "9acfc3197e94fd6f9f3821a45d2d61a0669312ef7c863794974181f10b4c7e42",
+    "size": 328401
+  },
+  "key-exam-100-buddhist": {
+    "sha": "ec04d77401e1d94a26334e5e22505eb27629bc0c80a1a9d54eed428716d637d6",
+    "size": 388961
+  },
+  "key-exam-100-catholic": {
+    "sha": "f33898007316a2753e52cca36fb8d462f16a259602395422fb75634bfe32a924",
+    "size": 333117
+  },
+  "key-exam-100-chemistry": {
+    "sha": "d7ccce9e904c850ce1ce6cd6bc3120df8e9a2a529c24322b6e7db803eab3eee3",
+    "size": 335003
+  },
+  "key-exam-100-confucian": {
+    "sha": "aa507a4aac128374acdce33eb327eb89976dc7b775bb582793758c335a5ba8ca",
+    "size": 380567
+  },
+  "key-exam-100-english": {
+    "sha": "10191004e7332b9c3ed400f1f3f92b9e0295b63ae974d40f1d6275627fa0cdf4",
+    "size": 379939
+  },
+  "key-exam-100-german": {
+    "sha": "55c4b79a133b1dded1c2dbd3ae704cf185a7eb82e8f42f7ed44de99bcc86e9ce",
+    "size": 367046
+  },
+  "key-exam-100-hindu": {
+    "sha": "d41e2f497fcec1f3ac4953f407612b8d3489aa9ff5940f23a78428aca3b72caa",
+    "size": 374551
+  },
+  "key-exam-100-islam-theory": {
+    "sha": "a61f0c48c9951e5388bbccc2aa0d04fc47c9fb687b0bbb45f601a9cd6752c325",
+    "size": 403283
+  },
+  "key-exam-100-islam-writing": {
+    "sha": "504a5c111dd619921c7ad1f8a26a031e450cf4b0bfb2234f10a5910f5c1fc3d3",
+    "size": 423976
+  },
+  "key-exam-100-japanese": {
+    "sha": "5d9b96c85abc4c11a61725afea60d110bd712e44b46ba5bbbac831c9b68765f5",
+    "size": 416368
+  },
+  "key-exam-100-korean": {
+    "sha": "33866ce52cd4fe07cc84ab156f3cba2626fe81ec0ac67cc32986a431d1e23149",
+    "size": 461539
+  },
+  "key-exam-100-mandarin": {
+    "sha": "48748fa42905b3d7f224a4a4a072fc4dc37d4ac97372a7f318f705ef4cb223f0",
+    "size": 579485
+  },
+  "key-exam-100-math": {
+    "sha": "9628afb2dfedbc4169e6874004843f4c6a7bef96d9f81cb5fe73239a4565e94b",
+    "size": 310924
+  },
+  "key-exam-100-pancasila": {
+    "sha": "b095cc86e9873352dabf7e90b9d2a6475c9df10e54a3b704ac13145a99709f9e",
+    "size": 322307
+  },
+  "key-exam-100-pkn": {
+    "sha": "d320fe1022b48ef31680af4fcf52b3c90e68d76d16763c404db45aad34ba5bb4",
+    "size": 341341
+  },
+  "key-exam-100-ppkn": {
+    "sha": "9d697bf9facbe3565b37ef0ebdef868d70058fc1c36b3cc910e8a4d08cdd9865",
+    "size": 327288
+  },
+  "key-exam-100-protestant": {
+    "sha": "530c62a3d4a55c82e7cc456d503847eb4351353030b5150b4363431be86710a9",
+    "size": 341838
+  },
+  "key-explained-100-biology": {
+    "sha": "2571cf1d5d8ae0df4ce5692b772266fdc7fc28010f557c8e64eb5b72d82bfa42",
+    "size": 278421
+  },
+  "key-explained-100-buddhist": {
+    "sha": "0487d312ea895f7a0a3eddb5a5fcaa218de777fe48800251a61733c4878ef6c5",
+    "size": 345158
+  },
+  "key-explained-100-catholic": {
+    "sha": "c1708d12fed8ddac22bbdd22980ac2f13076e896de9f8c26244240ab9f237ce7",
+    "size": 282919
+  },
+  "key-explained-100-chemistry": {
+    "sha": "2db034d2fe01a5dffef5be4ea2acbb40c55a52c144f588da2e552e77609e1867",
+    "size": 283955
+  },
+  "key-explained-100-confucian": {
+    "sha": "368951d87f57797958b232cc9764b9c9cc26ef91c8d05de21b6c279597937bc9",
+    "size": 336953
+  },
+  "key-explained-100-english": {
+    "sha": "8cb64d7f3ec8a5e00f77b014c0d1af595a857675fbec4f96059323ef8a1cd379",
+    "size": 338286
+  },
+  "key-explained-100-german": {
+    "sha": "48a60fea2f5bf2dbc7d96415c12823a3c139d257c920e8bea12c75648fbd657c",
+    "size": 327396
+  },
+  "key-explained-100-hindu": {
+    "sha": "706592daffc89fb39161e1d8d281dd0726cdd8510f40ed8d89f503fb7c49f10d",
+    "size": 333051
+  },
+  "key-explained-100-islam-theory": {
+    "sha": "d8e01036af85cdbe4ddfcda91e21a5d7e0f01af0878c255e4336501b2d45b3d7",
+    "size": 357022
+  },
+  "key-explained-100-islam-writing": {
+    "sha": "bb5792f0872ca29d85f2dd2b7f99ddf1828a807a2db39a7c1104f0225e00b9e9",
+    "size": 376860
+  },
+  "key-explained-100-japanese": {
+    "sha": "f6092e34f83c0c406a3a1ac456b63e5ddbd50a611c155313e459bb31a1c34427",
+    "size": 374634
+  },
+  "key-explained-100-korean": {
+    "sha": "bc935dbd5341d9ea9b22f0aebd4fff2f49ddac8dbb06697f789fae5c030edf14",
+    "size": 405386
+  },
+  "key-explained-100-mandarin": {
+    "sha": "a3cbb6d4acce93e68751d8d92b3b6937e2f21c8dfa3ba01d3d8104b2a895d197",
+    "size": 484924
+  },
+  "key-explained-100-math": {
+    "sha": "737e2397c1979a1b038086e7c865b4ab20bf8a0733e3748d4b7305defbae0a44",
+    "size": 271952
+  },
+  "key-explained-100-pancasila": {
+    "sha": "22a70184a1c879c5b0e16f6e5e2543d58ec057e1f9217ef4311bb3194e64cd2e",
+    "size": 272410
+  },
+  "key-explained-100-pkn": {
+    "sha": "d35fd09a9ce8c93d273edda6a923efbb42faebb289206e007a6704042ee62590",
+    "size": 288452
+  },
+  "key-explained-100-ppkn": {
+    "sha": "581027aa42b9b987ca1680abf6311e0bf347882c519b423edbefb89c86988cc4",
+    "size": 277137
+  },
+  "key-explained-100-protestant": {
+    "sha": "490d9065ea44989a926608581dd2ad37d6a6be4bca12dc94c93e392231a1229b",
+    "size": 288062
+  },
+  "pack-1000-buddhist": {
+    "sha": "de9c6bde19ce654055876e963d22820d3a4d9dcac385f5261e86b26b70dc35ca",
+    "size": 835537
+  },
+  "pack-1000-confucian": {
+    "sha": "a4429c51306bb80c640c35bba612e7bfb18be2483141f65e6c7c4565eda613c7",
+    "size": 865139
+  },
+  "pack-1000-english": {
+    "sha": "2306c7ffeb7b7b59afc383b7685bb2c7f9f33eedc3ac38886d0adf95636cb20f",
+    "size": 710340
+  },
+  "pack-1000-german": {
+    "sha": "14e01001141f0ba71e0f03eb4e96faeba1c75329dc01e8b460832c932bcd5ab2",
+    "size": 660659
+  },
+  "pack-1000-hindu": {
+    "sha": "469cb8edbdbcfabf9a1ffd1c61177d8b2fa8b1c789ec2c825e689dac4281e867",
+    "size": 814275
+  },
+  "pack-1000-islam-theory": {
+    "sha": "902f61f78ac96d8d15ef022f6b31a94d04d92da1ac20e045ced0e3063890592c",
+    "size": 829878
+  },
+  "pack-1000-islam-writing": {
+    "sha": "892b3f5bffb1867f6f9365d835bff2360bf393694cd02fd687eaf320edf4cc75",
+    "size": 888869
+  },
+  "pack-1000-japanese": {
+    "sha": "9f6d7eb23dbb5440396cdec02abe333ead92e2e6b9bcae2737e587084f5c7f32",
+    "size": 687443
+  },
+  "pack-1000-korean": {
+    "sha": "a26648bd4fdad319eee71862959cbe4b4e44755b914bfc17fcbb205043425db2",
+    "size": 861003
+  },
+  "pack-1000-mandarin": {
+    "sha": "01f857f69f64176d9d44d5cd3f7ad92e13329f1db062e52574abffd62ff744a8",
+    "size": 883462
+  },
+  "pack-exam-100-biology": {
+    "sha": "79dc9dc18f1aa3eb7e6c495326271956a47eca084c13f62eab5bc1391b048d1e",
+    "size": 410706
+  },
+  "pack-exam-100-buddhist": {
+    "sha": "e3fd2587c0c108b0a29a867f550ec1b13f91e0966c761b404fa00931f16660b1",
+    "size": 473056
+  },
+  "pack-exam-100-catholic": {
+    "sha": "9a47f1a6d8f00cae4b2778c47257366557a4b343fb57570986aabadd4d183942",
+    "size": 420880
+  },
+  "pack-exam-100-chemistry": {
+    "sha": "c4704bda1858fc410f18dd3a415b8e42aa22195f45d82d40bcca13d067361668",
+    "size": 419453
+  },
+  "pack-exam-100-confucian": {
+    "sha": "93103996ab11cb22a949ed582b7872db2ddb71b95f1b6ca21e0289439c93dffa",
+    "size": 462160
+  },
+  "pack-exam-100-english": {
+    "sha": "cf980487dc064b44032b8938fe8cf678fcaf0890375a8f0b58efb06d8dded5f7",
+    "size": 459861
+  },
+  "pack-exam-100-german": {
+    "sha": "bf9f31e556613e15e89d7a770e1bce412a975934e7a30595e3edd3217d19c84c",
+    "size": 437591
+  },
+  "pack-exam-100-hindu": {
+    "sha": "733580b6ca48b2786c86c81bca88643ac956cdf0a7bf6c89a0956b8823b782ce",
+    "size": 451362
+  },
+  "pack-exam-100-islam-theory": {
+    "sha": "7f46733f7afcaf318ac40ff240c562641506295a74812a964acb7b892b3c3e48",
+    "size": 503741
+  },
+  "pack-exam-100-islam-writing": {
+    "sha": "64bdbf6601de890b669ab450824c89541c2c0f1c50bd82040910f5c4a2a538bf",
+    "size": 511213
+  },
+  "pack-exam-100-japanese": {
+    "sha": "9f9fb69171daea8521ae6210dd5d5da5842197eb731256717a5c1026a60f0cc1",
+    "size": 494356
+  },
+  "pack-exam-100-korean": {
+    "sha": "aa60fd968da2a83a343e7be259af99c01c15cc1f7ec5cc694ac81cfc2177593a",
+    "size": 551068
+  },
+  "pack-exam-100-mandarin": {
+    "sha": "0b914e45cb54fdb2bc1fcbfc86438f351e7ad828652209a3a69dacfa41069e18",
+    "size": 671277
+  },
+  "pack-exam-100-math": {
+    "sha": "d3b7743699e1de69b95311043093d64da3dfb0724a1f9b00d4cabd9b3307c439",
+    "size": 377736
+  },
+  "pack-exam-100-pancasila": {
+    "sha": "439d8f24c48a9633ea57568eb7c87897f68a0c0835f303518a5ec563652d15a0",
+    "size": 403989
+  },
+  "pack-exam-100-pkn": {
+    "sha": "7da131f7308be8b6078477fe2696e14075a319d123d9ca0f30f1e68be1caef06",
+    "size": 432037
+  },
+  "pack-exam-100-ppkn": {
+    "sha": "623691635539794143ac11138f0627c25888dcb918c4347a9b7494b808a70f0f",
+    "size": 412935
+  },
+  "pack-exam-100-protestant": {
+    "sha": "1126d3341be0386d3f5cd6d22f82dcc3c9829274e29fa9c0f099ed4a5e463265",
+    "size": 435247
+  },
+  "worksheet-1000-biology": {
+    "sha": "787e0d377386e3eecdf8a482221548703374e0e51a6555a72dc1e3bc6fe05c43",
+    "size": 422100
+  },
+  "worksheet-1000-buddhist": {
+    "sha": "8353c2f47d7b7041e0f80fd94e09c5e1a1a60717f538a73307dc471f969fbd09",
+    "size": 450694
+  },
+  "worksheet-1000-catholic": {
+    "sha": "7a6d368e374bcedf91e002ba56bed325cfab5f1033d53751fe2d6caa54f694df",
+    "size": 484063
+  },
+  "worksheet-1000-chemistry": {
+    "sha": "b57b8622135ece57ae867d42e2c247b4bae76df85824c7396faa3d024cc3e15b",
+    "size": 437926
+  },
+  "worksheet-1000-confucian": {
+    "sha": "5ea3c036726e481898503c7de1009efd5e877213864b527a89735a94cebdc16f",
+    "size": 468604
+  },
+  "worksheet-1000-english": {
+    "sha": "e6335d363225c8b027f9d6f5c587b372ad9c03db402f60500c1d05e5231e140d",
+    "size": 385644
+  },
+  "worksheet-1000-german": {
+    "sha": "dbf83c9443ba96400e32354c03a98a11c1bcf03a3e0593a0c3c52e88619ad3d6",
+    "size": 356289
+  },
+  "worksheet-1000-hindu": {
+    "sha": "545754602ef8d6583ae64fbe9aace39dec11a6c1e195d0c7f301c9061be0a495",
+    "size": 440013
+  },
+  "worksheet-1000-islam-theory": {
+    "sha": "ca84cb86d2a00191fc61533b6c234f139b59d27f54907d124254c31d6048a6cb",
+    "size": 454501
+  },
+  "worksheet-1000-islam-writing": {
+    "sha": "bec7ab4e02184e25c195e27a1277a5f36b635a83ef09438325348eb0b55b0cec",
+    "size": 482861
+  },
+  "worksheet-1000-japanese": {
+    "sha": "8579428febfdfe06c8d9590d2b6b08f9101ebb3ce9b683ca53f5a1414262b958",
+    "size": 394802
+  },
+  "worksheet-1000-korean": {
+    "sha": "5bee6b7ddba4720cf2137c6d78affdaed5ed036df910d81268dfa28f50367be0",
+    "size": 474848
+  },
+  "worksheet-1000-mandarin": {
+    "sha": "587a585dff384297413e0f0b4162eb511b9780ce37d1ddd55cf9ad6a0ecddfe1",
+    "size": 526789
+  },
+  "worksheet-1000-pkn": {
+    "sha": "4741872a1aae7f83a71a5f6b27e3bf54ddab9f5764c213135b6a3380768b33d9",
+    "size": 460538
+  },
+  "worksheet-1000-ppkn": {
+    "sha": "a949398a03482b898f6461332655f89436285dfbb99999cd5f6543c512a921e6",
+    "size": 442992
+  },
+  "worksheet-1000-protestant": {
+    "sha": "a44fa2f488fe21a00c87beb076fbf37be99bda6c045c6c5718fcf487bb1792f9",
+    "size": 476832
+  }
+}

@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
+
+# originals of paid files never enter git
+/private/originals/
+__pycache__/
+*.pyc
+
+# paid files: shipped to Vercel by the CLI, never committed to the public repo
+/private/pdfs/
+
+!.env.example
+
+# Held files: images moved out of public, never committed
+/private/held-images/
+
+# raw captures stay local; curated screenshots live in docs/screenshots
+/docs/screenshots/raw/

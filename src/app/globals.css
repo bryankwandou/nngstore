@@ -1,0 +1,334 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+/* Docs and scripts are not UI; keep their prose out of the class scan. */
+@source not "../../docs";
+@source not "../../scripts";
+@source not "../../private";
+
+/*
+  Tokens live in src/styles/tokens.css (owned by brand.md). This block only maps
+  them onto Tailwind utilities, so `bg-surface`, `text-muted`, `border-line`
+  and friends always follow the active theme. Values are complete colors, so
+  `inline` is safe: utilities emit var(--x) directly.
+*/
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elev: var(--bg-elev);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-subtle: var(--text-subtle);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-contrast: var(--brand-contrast);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--ff-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--ff-display), var(--ff-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--ff-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+
+  --ease-out: var(--ease-out);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) {
+      color-scheme: dark;
+    }
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: var(--brand-soft);
+    color: var(--text);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  /* Numbers in prices and counters should not jitter while they change. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer utilities {
+  .container-page {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/*
+  Native <dialog> panels. showModal() gives focus containment, Escape to close
+  and an inert page for free; these rules only add the slide and the backdrop.
+  Exit animations work because display and overlay transition discretely.
+*/
+@layer components {
+  .sheet {
+    position: fixed;
+    inset: 0;
+    margin: 0 0 0 auto;
+    width: min(28rem, 100%);
+    max-width: 100%;
+    height: 100dvh;
+    max-height: none;
+    padding: 0;
+    border: 0;
+    border-left: 1px solid var(--line);
+    background: var(--bg-elev);
+    color: var(--text);
+    box-shadow: var(--shadow-lg);
+    transform: translateX(100%);
+    transition:
+      transform 0.42s var(--ease-out),
+      overlay 0.42s allow-discrete,
+      display 0.42s allow-discrete;
+  }
+
+  .sheet[data-side="left"] {
+    margin: 0 auto 0 0;
+    border-left: 0;
+    border-right: 1px solid var(--line);
+    transform: translateX(-100%);
+  }
+
+  .sheet[open] {
+    transform: translateX(0);
+  }
+
+  @starting-style {
+    .sheet[open] {
+      transform: translateX(100%);
+    }
+    .sheet[data-side="left"][open] {
+      transform: translateX(-100%);
+    }
+  }
+
+  .palette {
+    position: fixed;
+    inset: 0;
+    margin: 12vh auto auto;
+    width: min(40rem, calc(100% - 2rem));
+    max-height: min(34rem, 76vh);
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-xl);
+    background: var(--bg-elev);
+    color: var(--text);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+    transition:
+      opacity 0.24s var(--ease-out),
+      transform 0.32s var(--ease-out),
+      overlay 0.32s allow-discrete,
+      display 0.32s allow-discrete;
+  }
+
+  .palette[open] {
+    opacity: 1;
+    transform: none;
+  }
+
+  @starting-style {
+    .palette[open] {
+      opacity: 0;
+      transform: translateY(-8px) scale(0.98);
+    }
+  }
+
+  .sheet::backdrop,
+  .palette::backdrop {
+    background-color: rgb(9 9 14 / 0);
+    backdrop-filter: blur(0);
+    transition:
+      background-color 0.3s ease,
+      backdrop-filter 0.3s ease,
+      overlay 0.3s allow-discrete,
+      display 0.3s allow-discrete;
+  }
+
+  .sheet[open]::backdrop,
+  .palette[open]::backdrop {
+    background-color: rgb(9 9 14 / 0.42);
+    backdrop-filter: blur(3px);
+  }
+
+  @starting-style {
+    .sheet[open]::backdrop,
+    .palette[open]::backdrop {
+      background-color: rgb(9 9 14 / 0);
+      backdrop-filter: blur(0);
+    }
+  }
+}
+
+html:has(dialog.sheet[open]),
+html:has(dialog.palette[open]) {
+  overflow: hidden;
+}
+
+/* Subjects mega menu: a native popover, so Escape and outside clicks close it without script. */
+.mega {
+  position: fixed;
+  inset: 4.5rem 1rem auto;
+  margin: 0 auto;
+  width: min(60rem, calc(100% - 2rem));
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg-elev);
+  color: var(--text);
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    overlay 0.2s allow-discrete,
+    display 0.2s allow-discrete;
+}
+
+.mega:popover-open {
+  opacity: 1;
+  transform: none;
+}
+
+@starting-style {
+  .mega:popover-open {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+/*
+  Reveal on scroll. Content is visible in the server HTML; it is only hidden
+  once the inline script has marked <html class="js">. The failsafe animation
+  shows everything after 2.5 s in case hydration never happens.
+*/
+[data-reveal],
+[data-stagger] > * {
+  transition:
+    opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+html.js [data-reveal]:not([data-in]),
+html.js [data-stagger]:not([data-in]) > * {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: reveal-failsafe 0.6s cubic-bezier(0.22, 1, 0.36, 1) 2.5s forwards;
+}
+
+[data-stagger] > :nth-child(2) { --reveal-delay: 50ms; }
+[data-stagger] > :nth-child(3) { --reveal-delay: 100ms; }
+[data-stagger] > :nth-child(4) { --reveal-delay: 150ms; }
+[data-stagger] > :nth-child(5) { --reveal-delay: 200ms; }
+[data-stagger] > :nth-child(6) { --reveal-delay: 250ms; }
+[data-stagger] > :nth-child(7) { --reveal-delay: 300ms; }
+[data-stagger] > :nth-child(n + 8) { --reveal-delay: 350ms; }
+
+@keyframes reveal-failsafe {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Every animation in the app stops when the visitor asks for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Printing the site never prints a protected page. */
+@media print {
+  [data-protected] {
+    display: none !important;
+  }
+}

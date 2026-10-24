@@ -1,0 +1,12 @@
+﻿# Vercel CLI uploads: everything except build output, secrets and paid files.
+# Paid PDFs live in the private Blob store (scripts/blob-sync.mjs) and are
+# served only through /api/read, so they never ride along with a deploy.
+node_modules
+.next
+.env*
+.git
+private/pdfs
+private/originals
+private/held-images
+scripts/catalog/__pycache__
+docs/screenshots/raw

@@ -1,0 +1,90 @@
+/*
+  NNG Store design tokens. brand.md is the source of truth; change it there
+  first, then here. Every value is a complete CSS color, so globals.css can map
+  them onto Tailwind utilities with @theme inline.
+
+  Draft 1: values are being checked for contrast by scripts/brand/contrast.py.
+*/
+
+:root {
+  --bg: #fbfafd;
+  --bg-elev: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f3f1f8;
+  --line: #e6e3ef;
+  --line-strong: #d2cee0;
+  --text: #15132b;
+  --text-muted: #55516e;
+  --text-subtle: #858199;
+  --brand: #6a3ef0;
+  --brand-strong: #5528d6;
+  --brand-soft: #efeaff;
+  --brand-contrast: #ffffff;
+  --accent: #1c6fe0;
+  --accent-soft: #e6effd;
+  --success: #12804b;
+  --warning: #b25208;
+  --danger: #d10f28;
+  --ring: #8e59fd;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.25rem;
+
+  --shadow-sm: 0 1px 2px 0 rgb(21 19 43 / 0.06);
+  --shadow-md: 0 1px 2px 0 rgb(21 19 43 / 0.05), 0 4px 12px -2px rgb(21 19 43 / 0.08);
+  --shadow-lg: 0 2px 4px 0 rgb(21 19 43 / 0.04), 0 16px 40px -8px rgb(21 19 43 / 0.16);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-1: 120ms;
+  --dur-2: 200ms;
+  --dur-3: 320ms;
+  --dur-4: 560ms;
+}
+
+[data-theme="dark"] {
+  --bg: #0b0c16;
+  --bg-elev: #12131f;
+  --surface: #141522;
+  --surface-2: #1c1d2c;
+  --line: #262838;
+  --line-strong: #383b52;
+  --text: #f3f2f9;
+  --text-muted: #aba8c0;
+  --text-subtle: #7d7a95;
+  --brand: #a185ff;
+  --brand-strong: #bba7ff;
+  --brand-soft: #231b48;
+  --brand-contrast: #120b2e;
+  --accent: #5aa9ff;
+  --accent-soft: #10233f;
+  --success: #3ccb84;
+  --warning: #f5b544;
+  --danger: #ff6170;
+  --ring: #a185ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0c16;
+    --bg-elev: #12131f;
+    --surface: #141522;
+    --surface-2: #1c1d2c;
+    --line: #262838;
+    --line-strong: #383b52;
+    --text: #f3f2f9;
+    --text-muted: #aba8c0;
+    --text-subtle: #7d7a95;
+    --brand: #a185ff;
+    --brand-strong: #bba7ff;
+    --brand-soft: #231b48;
+    --brand-contrast: #120b2e;
+    --accent: #5aa9ff;
+    --accent-soft: #10233f;
+    --success: #3ccb84;
+    --warning: #f5b544;
+    --danger: #ff6170;
+    --ring: #a185ff;
+  }
+}
